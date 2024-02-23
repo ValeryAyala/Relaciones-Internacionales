@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(140, 154, 137);
+    width: 100%;
+    list-style: none;
+    opacity: none;
+}
+ 
+header ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+
+
+header a{
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+    font-size: 20px;
+    width: 80%;
+    border-radius: 25%;
+    text-align: center;
+}
+header img {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+header ul li {
+    margin: 50px;
+}
+
+img {
+    width: 150px;
+}
+.inicio1 h1{
+    font-size: 34px;
+    color: rgb(255, 254, 254);
+    flex-direction:row;
+    justify-content: center;
+    font-family:"Playfair Display", serif;
+}
+
+.inicio1 p{
+    margin: center;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.container h2{
+color: rgb(254, 254, 254);
+}
+
+.container p{
+    color: rgb(255, 255, 255);
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img {
+    width: 250px;
+}
+
+.caja1{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja1 img {
+    width: 190px;
+}
+
+.caja2{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja2 img{
+    width: 220px;
+}
+
+.caja2 h1{
+    font-size: 30px;
+}
+
+.caja a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.caja1 a {
+    list-style: none ;
+    text-decoration: none;
+}
+
+.caja2 a {
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+#fondo{
+    background:linear-gradient(rgba(5,7,12, 0.75),rgba(5, 7, 12, 0.75)),url(Imagenes/fondorei.png) no-repeat center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+#fondo2 {
+    background:linear-gradient(rgba(255, 255, 255, 0.75),rgba(255, 255, 255, 0.75)),url(Imagenes/fondouni.jpg) no-repeat center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+#fondo3 {
+    background:linear-gradient(rgba(255, 255, 255, 0.75),rgba(255, 255, 255, 0.75)),url(Imagenes/fondotema.jpg) no-repeat center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.inicio2 h2 {
+color: rgb(218, 92, 19);
+}
+
+.inicio2 h1 {
+    font-size: 30px;
+}
+
+.inicio2 li{
+    list-style: none;
+}
