@@ -200,7 +200,11 @@ color: rgb(218, 92, 19);
     border-radius: 4px;
   }
 
-  
+.btn:hover,
+.btn:focus {
+  background-color: #45a049;
+  color: white;
+}
 
 @media (max-width: 935px) {
     header {
