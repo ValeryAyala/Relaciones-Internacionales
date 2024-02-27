@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+    margin: 0;
+}
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(140, 154, 137);
     width: 100%;
-    list-style: none;
-    opacity: none;
 }
  
 header ul{
@@ -25,19 +27,15 @@ header a{
     border-radius: 25%;
     text-align: center;
 }
+
 header img {
-    display: flex;
-    flex-direction: row;
-    width: 60%;
+    width: 300px;
 }
 
 header ul li {
     margin: 50px;
 }
 
-img {
-    width: 150px;
-}
 .inicio1 h1{
     font-size: 34px;
     color: rgb(255, 254, 254);
@@ -165,4 +163,41 @@ color: rgb(218, 92, 19);
 
 .inicio2 li{
     list-style: none;
+}
+
+@media (max-width: 935px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: rgb(140, 154, 137);
+        width: 100%;
+    }
+
+    header ul {
+        margin-top: 0;
+    }
+
+    header ul li {
+        margin: 10px;
+    }
+
+    header a {
+        color: white;
+        flex-direction: row;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+
+    .main img {
+        width: 30%;
+    }
 }
